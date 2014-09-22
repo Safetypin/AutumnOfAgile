@@ -7,20 +7,25 @@ namespace Microdesk.SkillPortal.DomainModel
 {
     public class Employee
     {
-        private IList<Skill> _skills = new List<Skill>();
-        public IList<Skill> Skills 
+        public Employee()
         {
-            get 
-            { 
-                return _skills.ToList<Skill>().AsReadOnly(); 
-            } 
+
+        }
+
+        private IList<Skill> _skills = new List<Skill>();
+        public IList<Skill> Skills
+        {
+            get
+            {
+                return _skills.ToList<Skill>().AsReadOnly();
+            }
+
         }
 
         public void AddSkill(Skill skill)
         {
             _skills.Add(skill);
         }
-
         
     }
 }

@@ -8,5 +8,9 @@ namespace Microdesk.SkillPortal.DomainModel
 {
     public class Skill
     {
+        public Skill()
+        {
+
+        }
     }
 }
