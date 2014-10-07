@@ -5,8 +5,10 @@ using System.Text;
 
 namespace Microdesk.SkillPortal.DomainModel
 {
-    public class Employee
+    public class Employee : Microdesk.Domain.Foundation.GuidIdentityPersistenceBase<Employee>
     {
+        private Employee _employee;
+
         public Employee()
         {
 
@@ -24,6 +26,7 @@ namespace Microdesk.SkillPortal.DomainModel
 
         public void AddSkill(Skill skill)
         {
+            skill.Employee = this;
             _skills.Add(skill);
         }
         

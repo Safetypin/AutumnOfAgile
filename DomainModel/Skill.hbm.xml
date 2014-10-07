@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping default-lazy="true" default-access="field.camelcase-underscore" namespace="Microdesk.SkillPortal.DomainModel" assembly="Microdesk.SkillPortal.DomainModel" xmlns="urn:nhibernate-mapping-2.2">
+  <class table="Skills" name="Skill">
+    <id name="_persistenceId" unsaved-value="00000000-0000-0000-0000-000000000000" access="field" type="Guid" column="Id">
+      <generator class="assigned"/>
+    </id> <version name="_persistenceVersion" unsaved-value="0" access="field" type="int" column="RowVersion"/>
+    <many-to-one name="Employee" class="Employee" column="EmployeeId"/>
+  </class>
+</hibernate-mapping>

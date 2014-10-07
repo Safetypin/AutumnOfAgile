@@ -1,0 +1,9 @@
+C:\Users\Ghost\Documents\GitHub\SkillPortal\Unit Tests\DomainModel.Tests\obj\Debug\DomainModel.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Ghost\Documents\GitHub\SkillPortal\Unit Tests\DomainModel.Tests\bin\Debug\Microdesk.SkillPortal.DomainModel.Tests.dll
+C:\Users\Ghost\Documents\GitHub\SkillPortal\Unit Tests\DomainModel.Tests\bin\Debug\Microdesk.SkillPortal.DomainModel.Tests.pdb
+C:\Users\Ghost\Documents\GitHub\SkillPortal\Unit Tests\DomainModel.Tests\obj\Debug\Microdesk.SkillPortal.DomainModel.Tests.dll
+C:\Users\Ghost\Documents\GitHub\SkillPortal\Unit Tests\DomainModel.Tests\obj\Debug\Microdesk.SkillPortal.DomainModel.Tests.pdb
+C:\Users\Ghost\Documents\GitHub\SkillPortal\Unit Tests\DomainModel.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Ghost\Documents\GitHub\SkillPortal\Unit Tests\DomainModel.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Ghost\Documents\GitHub\SkillPortal\Unit Tests\DomainModel.Tests\bin\Debug\Microdesk.SkillPortal.DomainModel.dll
+C:\Users\Ghost\Documents\GitHub\SkillPortal\Unit Tests\DomainModel.Tests\bin\Debug\Microdesk.SkillPortal.DomainModel.pdb

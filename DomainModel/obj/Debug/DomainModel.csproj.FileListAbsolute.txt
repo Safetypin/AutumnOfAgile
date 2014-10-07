@@ -1,0 +1,35 @@
+F:\Code\Autumn of Agile\SkillPortal\DomainModel\bin\Debug\Microdesk.SkillPortal.DomainModel.dll
+F:\Code\Autumn of Agile\SkillPortal\DomainModel\bin\Debug\Microdesk.SkillPortal.DomainModel.pdb
+F:\Code\Autumn of Agile\SkillPortal\DomainModel\obj\Debug\DomainModel.csprojResolveAssemblyReference.cache
+F:\Code\Autumn of Agile\SkillPortal\DomainModel\obj\Debug\Microdesk.SkillPortal.DomainModel.dll
+F:\Code\Autumn of Agile\SkillPortal\DomainModel\obj\Debug\Microdesk.SkillPortal.DomainModel.pdb
+D:\Code\Tutorials\AutumnOfAgile\DomainModel\bin\Debug\Microdesk.SkillPortal.DomainModel.dll
+D:\Code\Tutorials\AutumnOfAgile\DomainModel\bin\Debug\Microdesk.SkillPortal.DomainModel.pdb
+D:\Code\Tutorials\AutumnOfAgile\DomainModel\obj\Debug\DomainModel.csprojResolveAssemblyReference.cache
+D:\Code\Tutorials\AutumnOfAgile\DomainModel\obj\Debug\Microdesk.SkillPortal.DomainModel.dll
+D:\Code\Tutorials\AutumnOfAgile\DomainModel\obj\Debug\Microdesk.SkillPortal.DomainModel.pdb
+D:\Code\Tutorials\AutumnOfAgile\DomainModel\bin\Debug\Iesi.Collections.dll
+D:\Code\Tutorials\AutumnOfAgile\DomainModel\bin\Debug\NHibernate.dll
+D:\Code\Tutorials\AutumnOfAgile\DomainModel\bin\Debug\nunit.framework.dll
+D:\Code\Tutorials\AutumnOfAgile\DomainModel\bin\Debug\Iesi.Collections.xml
+D:\Code\Tutorials\AutumnOfAgile\DomainModel\bin\Debug\NHibernate.xml
+D:\Code\Tutorials\AutumnOfAgile\DomainModel\bin\Debug\nunit.framework.xml
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\Microdesk.SkillPortal.DomainModel.dll
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\Microdesk.SkillPortal.DomainModel.pdb
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\Iesi.Collections.dll
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\NHibernate.dll
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\nunit.framework.dll
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\Iesi.Collections.xml
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\NHibernate.xml
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\nunit.framework.xml
+F:\Code\AutumnOfAgile\DomainModel\obj\Debug\DomainModel.csprojResolveAssemblyReference.cache
+F:\Code\AutumnOfAgile\DomainModel\obj\Debug\Microdesk.SkillPortal.DomainModel.dll
+F:\Code\AutumnOfAgile\DomainModel\obj\Debug\Microdesk.SkillPortal.DomainModel.pdb
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\Castle.Core.dll
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\Castle.Windsor.dll
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\Microdesk.Domain.Foundation.dll
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\Rhino.Commons.dll
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\Rhino.Mocks.dll
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\Castle.Core.xml
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\Castle.Windsor.xml
+F:\Code\AutumnOfAgile\DomainModel\bin\Debug\Rhino.Mocks.xml
