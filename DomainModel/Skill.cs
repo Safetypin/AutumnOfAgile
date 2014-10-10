@@ -9,7 +9,7 @@ namespace Microdesk.SkillPortal.DomainModel
     public class Skill : Microdesk.Domain.Foundation.GuidIdentityPersistenceBase<Skill>
     {
         private Employee _employee;
-        public Employee Employee
+        public virtual Employee Employee
         {
             get
             {
@@ -18,6 +18,19 @@ namespace Microdesk.SkillPortal.DomainModel
             set
             {
                 _employee = value;
+            }
+        }
+
+        private SkillType _skillType;
+        public virtual SkillType SkillType
+        {
+            get
+            {
+                return _skillType;
+            }
+            set
+            {
+                _skillType = value;
             }
         }
     }

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Database" targetNamespace="http://tempuri.org/Database.xsd" xmlns:mstns="http://tempuri.org/Database.xsd" xmlns="http://tempuri.org/Database.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MicrodeskSkillPortalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MicrodeskSkillPortalConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PersitenceTests.Properties.Settings.GlobalReference.Default.MicrodeskSkillPortalConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Database" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Database" msprop:Generator_UserDSName="Database" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Employees" msprop:Generator_UserTableName="Employees" msprop:Generator_RowDeletedName="EmployeesRowDeleted" msprop:Generator_TableClassName="EmployeesDataTable" msprop:Generator_RowChangedName="EmployeesRowChanged" msprop:Generator_RowClassName="EmployeesRow" msprop:Generator_RowChangingName="EmployeesRowChanging" msprop:Generator_RowEvArgName="EmployeesRowChangeEvent" msprop:Generator_RowEvHandlerName="EmployeesRowChangeEventHandler" msprop:Generator_TablePropName="Employees" msprop:Generator_TableVarName="tableEmployees" msprop:Generator_RowDeletingName="EmployeesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInTable="IdColumn" type="xs:string" />
+              <xs:element name="RowVersion" msprop:Generator_UserColumnName="RowVersion" msprop:Generator_ColumnPropNameInRow="RowVersion" msprop:Generator_ColumnVarNameInTable="columnRowVersion" msprop:Generator_ColumnPropNameInTable="RowVersionColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SkillTypes" msprop:Generator_UserTableName="SkillTypes" msprop:Generator_RowDeletedName="SkillTypesRowDeleted" msprop:Generator_TableClassName="SkillTypesDataTable" msprop:Generator_RowChangedName="SkillTypesRowChanged" msprop:Generator_RowClassName="SkillTypesRow" msprop:Generator_RowChangingName="SkillTypesRowChanging" msprop:Generator_RowEvArgName="SkillTypesRowChangeEvent" msprop:Generator_RowEvHandlerName="SkillTypesRowChangeEventHandler" msprop:Generator_TablePropName="SkillTypes" msprop:Generator_TableVarName="tableSkillTypes" msprop:Generator_RowDeletingName="SkillTypesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInTable="IdColumn" type="xs:string" />
+              <xs:element name="RowVersion" msprop:Generator_UserColumnName="RowVersion" msprop:Generator_ColumnPropNameInRow="RowVersion" msprop:Generator_ColumnVarNameInTable="columnRowVersion" msprop:Generator_ColumnPropNameInTable="RowVersionColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Skills" msprop:Generator_UserTableName="Skills" msprop:Generator_RowDeletedName="SkillsRowDeleted" msprop:Generator_TableClassName="SkillsDataTable" msprop:Generator_RowChangedName="SkillsRowChanged" msprop:Generator_RowClassName="SkillsRow" msprop:Generator_RowChangingName="SkillsRowChanging" msprop:Generator_RowEvArgName="SkillsRowChangeEvent" msprop:Generator_RowEvHandlerName="SkillsRowChangeEventHandler" msprop:Generator_TablePropName="Skills" msprop:Generator_TableVarName="tableSkills" msprop:Generator_RowDeletingName="SkillsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInTable="IdColumn" type="xs:string" />
+              <xs:element name="RowVersion" msprop:Generator_UserColumnName="RowVersion" msprop:Generator_ColumnPropNameInRow="RowVersion" msprop:Generator_ColumnVarNameInTable="columnRowVersion" msprop:Generator_ColumnPropNameInTable="RowVersionColumn" type="xs:int" />
+              <xs:element name="EmployeeId" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="EmployeeId" msprop:Generator_ColumnPropNameInRow="EmployeeId" msprop:Generator_ColumnVarNameInTable="columnEmployeeId" msprop:Generator_ColumnPropNameInTable="EmployeeIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SkillTypeId" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="SkillTypeId" msprop:Generator_ColumnPropNameInRow="SkillTypeId" msprop:Generator_ColumnVarNameInTable="columnSkillTypeId" msprop:Generator_ColumnPropNameInTable="SkillTypeIdColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Employees" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="SkillTypes_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SkillTypes" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="Skills_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Skills" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK_EmployeeSkill" msdata:parent="Employees" msdata:child="Skills" msdata:parentkey="Id" msdata:childkey="EmployeeId" msprop:Generator_UserRelationName="FK_EmployeeSkill" msprop:Generator_RelationVarName="relationFK_EmployeeSkill" msprop:Generator_UserChildTable="Skills" msprop:Generator_UserParentTable="Employees" msprop:Generator_ParentPropName="EmployeesRow" msprop:Generator_ChildPropName="GetSkillsRows" />
+      <msdata:Relationship name="FK18F6084C80B697B" msdata:parent="SkillTypes" msdata:child="Skills" msdata:parentkey="Id" msdata:childkey="SkillTypeId" msprop:Generator_UserRelationName="FK18F6084C80B697B" msprop:Generator_RelationVarName="relationFK18F6084C80B697B" msprop:Generator_UserChildTable="Skills" msprop:Generator_UserParentTable="SkillTypes" msprop:Generator_ParentPropName="SkillTypesRow" msprop:Generator_ChildPropName="GetSkillsRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

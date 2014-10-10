@@ -30,17 +30,47 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Iesi.Collections">
-      <HintPath>..\packages\Iesi.Collections.3.2.0.1001\lib\Net35\Iesi.Collections.dll</HintPath>
+    <Reference Include="Castle.Core, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\RhinoCommons\2.0.0.0\Castle.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Microdesk.Domain.Foundation">
-      <HintPath>..\UnitTestUtility\Microdesk.Domain.Foundation.dll</HintPath>
+    <Reference Include="Castle.MicroKernel, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\RhinoCommons\2.0.0.0\Castle.MicroKernel.dll</HintPath>
     </Reference>
-    <Reference Include="NHibernate">
-      <HintPath>..\packages\NHibernate.3.3.3.4001\lib\Net35\NHibernate.dll</HintPath>
+    <Reference Include="Castle.Windsor, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\RhinoCommons\2.0.0.0\Castle.Windsor.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    <Reference Include="Microdesk.Domain.Foundation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Domain Foundation\Microdesk.Domain.Foundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microdesk.Utility.UnitTest">
+      <HintPath>..\Lib\UnitTestUtility\Microdesk.Utility.UnitTest.dll</HintPath>
+    </Reference>
+    <Reference Include="NDbUnit.Core, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\UnitTestUtility\NDbUnit.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\RhinoCommons\2.0.0.0\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\NUnit\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.Commons, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\RhinoCommons\2.0.0.0\Rhino.Commons.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.Commons.NHibernate, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\RhinoCommons\2.0.0.0\Rhino.Commons.NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\Lib\UnitTestUtility\Rhino.Mocks.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -51,13 +81,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PersistanceTests.cs" />
+    <Compile Include="DatabaseMaintenance.cs" />
+    <Compile Include="EmployeePersistanceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryPersistanceTestBase.cs" />
+    <Compile Include="SkillPersistanceTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="app.config" />
+    <None Include="TestData\Database.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DomainModel\DomainModel.csproj">
+      <Project>{e5b5fc83-219d-4b84-915b-056285c3548f}</Project>
+      <Name>DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DomainPersistance\DomainPersistance.csproj">
+      <Project>{44a07dce-9fd3-446b-b037-73f5d326670b}</Project>
+      <Name>DomainPersistance</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Unit Tests\DomainModel.Test\DomainModel.Test.csproj">
       <Project>{68c6034c-d547-476d-a90f-62bdfd768ef2}</Project>
       <Name>DomainModel.Test</Name>
@@ -67,6 +113,7 @@
     <Content Include="hibernate.cfg.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="TestData\TestData.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

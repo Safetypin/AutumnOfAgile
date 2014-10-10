@@ -4,7 +4,7 @@
     <id name="_persistenceId" unsaved-value="00000000-0000-0000-0000-000000000000" access="field" type="Guid" column="Id">
       <generator class="assigned"/>
     </id> <version name="_persistenceVersion" unsaved-value="0" access="field" type="int" column="RowVersion"/> 
-    <bag table="Skills" name="Skills" inverse="true" generic="true">
+    <bag table="Skills" name="Skills" cascade="all" generic="true">
       <key column="EmployeeId" foreign-key="FK_EmployeeSkill"/>
       <one-to-many class="Skill"/>
     </bag>

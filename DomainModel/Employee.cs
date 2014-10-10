@@ -14,8 +14,16 @@ namespace Microdesk.SkillPortal.DomainModel
 
         }
 
+        public virtual Guid Id
+        {
+            get
+            {
+                return _persistenceId;
+            }
+        }
+
         private IList<Skill> _skills = new List<Skill>();
-        public IList<Skill> Skills
+        public virtual IList<Skill> Skills
         {
             get
             {
@@ -24,11 +32,12 @@ namespace Microdesk.SkillPortal.DomainModel
 
         }
 
-        public void AddSkill(Skill skill)
+        public virtual void AddSkill(Skill skill)
         {
             skill.Employee = this;
             _skills.Add(skill);
         }
+        
         
     }
 }
